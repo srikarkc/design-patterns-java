@@ -4,13 +4,19 @@ A repository to hold my understanding of the design patterns from the Head First
 
 ## Design Principles
 
++ Ch1
+
 1. Identify the aspects of your application that vary and separate them from what remains the same.
 2. Program to an interface, not to an implementation. (This means program to a supertype.)
 3. Favor composition over inheritance.
 
-+
++ Ch2
 
 4. Strive for loose coupled design between objects that interact.
+
++ Ch3
+
+5. Classes should be open for extension but closed for modification.
 
 ## Design Patterns
 
@@ -23,3 +29,8 @@ Strategy lets the algorithm vary independently from clients that use it.
 
 The observer pattern defines a one-to-many dependency between objects so that when one object changes state
 all of its dependents are notified & updated automatically.
+
+### Decorator Pattern
+
+Decorator pattern attaches additional responsibilities to an object dynamically.
+They provide a flexible alternative to subclassing for extended functionality.
