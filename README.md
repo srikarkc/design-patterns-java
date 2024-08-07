@@ -18,6 +18,10 @@ A repository to hold my understanding of the design patterns from the Head First
 
 5. Classes should be open for extension but closed for modification.
 
++ Ch4
+
+6. Depend upon abstractions. Do not depend upon concrete classes.
+
 ## Design Patterns
 
 ### Strategy Pattern
@@ -34,3 +38,8 @@ all of its dependents are notified & updated automatically.
 
 Decorator pattern attaches additional responsibilities to an object dynamically.
 They provide a flexible alternative to subclassing for extended functionality.
+
+### Factory Pattern
+
+The factory method pattern defines an interface for creating an object, but lets subclasses decide which class to instantiate.
+Factory method lets a class defer instantiation to subclasses.
