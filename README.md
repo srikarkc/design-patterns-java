@@ -43,3 +43,7 @@ They provide a flexible alternative to subclassing for extended functionality.
 
 The factory method pattern defines an interface for creating an object, but lets subclasses decide which class to instantiate.
 Factory method lets a class defer instantiation to subclasses.
+
+### Singleton Pattern
+
+Ensures that a class has only 1 instance and provides a global point of access to that instance.
