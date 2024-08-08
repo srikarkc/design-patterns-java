@@ -22,6 +22,10 @@ A repository to hold my understanding of the design patterns from the Head First
 
 6. Depend upon abstractions. Do not depend upon concrete classes.
 
++ Ch6
+
+7. 
+
 ## Design Patterns
 
 ### Strategy Pattern
@@ -47,3 +51,8 @@ Factory method lets a class defer instantiation to subclasses.
 ### Singleton Pattern
 
 Ensures that a class has only 1 instance and provides a global point of access to that instance.
+
+### Command Pattern
+
+Command pattern turns a request into a stand-alone object that contains all the information about the request.
+This transformation allows for parameterizing methods with different requests, queuing or logging requests, & supporting undoable operations.

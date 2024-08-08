@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CommandPatternDemo",
+            "request": "launch",
+            "mainClass": "CommandPatternDemo",
+            "projectName": "design-patterns-java_5d763353"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
