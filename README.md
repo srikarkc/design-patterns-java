@@ -56,3 +56,11 @@ Ensures that a class has only 1 instance and provides a global point of access t
 
 Command pattern turns a request into a stand-alone object that contains all the information about the request.
 This transformation allows for parameterizing methods with different requests, queuing or logging requests, & supporting undoable operations.
+
+### Adapter and Facade Pattern
+
+The adapter pattern converts the interface of one class into one that the client is expecting.
+Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
+
+Facade patterns provides a unified interface to a set of interfaces in a subsystem.
+Facade defines a higher-level interface that makes the subsystem easier to use.
