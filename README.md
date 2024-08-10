@@ -64,3 +64,8 @@ Adapter lets classes work together that couldn't otherwise because of incompatib
 
 Facade patterns provides a unified interface to a set of interfaces in a subsystem.
 Facade defines a higher-level interface that makes the subsystem easier to use.
+
+### Template Method Pattern
+
+Template method pattern defines the skeleton of an algorithm in a method, deferring some steps to subclasses.
+Template method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
