@@ -22,9 +22,10 @@ A repository to hold my understanding of the design patterns from the Head First
 
 6. Depend upon abstractions. Do not depend upon concrete classes.
 
-+ Ch6
++ Ch8
 
-7. 
+7. Don't call us, we'll call you.
+
 
 ## Design Patterns
 
@@ -69,3 +70,8 @@ Facade defines a higher-level interface that makes the subsystem easier to use.
 
 Template method pattern defines the skeleton of an algorithm in a method, deferring some steps to subclasses.
 Template method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
+
+### Iterator and Composite Patterns
+
+The iterator pattern provides a way to access the elements of a collection (such as a list or a tree) sequentially without exposing its underlying structure.
+The pattern involves an iterator interface that defines methods for accessing and traversing the elements in a collection.
