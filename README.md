@@ -26,6 +26,10 @@ A repository to hold my understanding of the design patterns from the Head First
 
 7. Don't call us, we'll call you.
 
++ Ch9
+
+8. A class should have only one reason to change.
+
 
 ## Design Patterns
 
@@ -78,3 +82,8 @@ The pattern involves an iterator interface that defines methods for accessing an
 
 Composite patterns allows you to compose objects into tree-like structures to represent part-whole hierarchies.
 Lets clients treat individual objects and compositions of objects uniformly.
+
+### State Pattern
+
+The state pattern allows an object to alter its behavior when its internal state changes.
+The object will appear to changes its class.
