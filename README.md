@@ -75,3 +75,6 @@ Template method lets subclasses redefine certain steps of an algorithm without c
 
 The iterator pattern provides a way to access the elements of a collection (such as a list or a tree) sequentially without exposing its underlying structure.
 The pattern involves an iterator interface that defines methods for accessing and traversing the elements in a collection.
+
+Composite patterns allows you to compose objects into tree-like structures to represent part-whole hierarchies.
+Lets clients treat individual objects and compositions of objects uniformly.
