@@ -87,3 +87,8 @@ Lets clients treat individual objects and compositions of objects uniformly.
 
 The state pattern allows an object to alter its behavior when its internal state changes.
 The object will appear to changes its class.
+
+### Proxy Pattern
+
+The Proxy Pattern provides a surrogate or placeholder for another object to control access to it.
+Can be used to add additional behavior when accessing an object, such as lazy initialization, access control, logging, caching, etc.
